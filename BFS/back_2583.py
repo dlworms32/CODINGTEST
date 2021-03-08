@@ -28,7 +28,6 @@ def bfs(graph, w, h, x, y):
     return area
 
 
-
 if __name__ == '__main__':
     H, W, K = map(int, input().split())
     graph = []
