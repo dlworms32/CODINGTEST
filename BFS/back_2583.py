@@ -27,6 +27,8 @@ def bfs(graph, w, h, x, y):
 
     return area
 
+
+
 if __name__ == '__main__':
     H, W, K = map(int, input().split())
     graph = []
@@ -55,7 +57,6 @@ if __name__ == '__main__':
 
     for i in graph:
         print(i)
-
 
     total_area.sort()
     print(num_area)
