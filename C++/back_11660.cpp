@@ -12,8 +12,8 @@ int main(void)
 {
 	cin.tie(NULL);
 	ios_base::sync_with_stdio(false);
-	// 입출력 최적화
-
+	// I / O optimization
+	
 	int N, M;
 	int x1 = 0, y1 = 0, x2 = 0, y2 = 0;
 	cin >> N >> M;
