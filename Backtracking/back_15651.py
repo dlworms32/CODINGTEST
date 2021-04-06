@@ -7,8 +7,7 @@ num = [i for i in range(N + 1)]
 visited = [False] * (N + 1)
 arr = []
 
-
-def dfs(c): 
+def dfs(c):
     if c == M:
         print(*arr)
         return
