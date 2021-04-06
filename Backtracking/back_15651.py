@@ -8,7 +8,7 @@ visited = [False] * (N + 1)
 arr = []
 
 
-def dfs(c):  # 이전 인덱스 이후부터 진행 -> 큰 수만 고려함
+def dfs(c): 
     if c == M:
         print(*arr)
         return
