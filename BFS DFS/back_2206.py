@@ -1,7 +1,11 @@
 """
     벽 부수고 이동하기
 
-    출처 :https://yuuj.tistory.com/94
+    출처: https://yuuj.tistory.com/94[Python] 백준 2206번: 벽 부수고 이동하기
+
+    문제점: 이전 상태에 벽을 부쉈는지만 판단, 벽을 부순 상태가 먼저 다음칸에 도달한 경우 벽을 부수지 않은 상태가
+    사라짐
+    해결방법: 3차원 배열로 선언, 벽을 부쉈을 경우 다른 차원에서 진행
 """
 import sys
 from collections import deque
