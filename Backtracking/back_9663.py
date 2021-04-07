@@ -5,13 +5,9 @@
     출처: https://rebas.kr/761 [PROJECT REBAS]
 """
 n, ans = int(input()), 0
-a = [False]*n
-b = [False]*(2*n-1)
-c = [False]*(2*n-1)
-
-print(a)  # 세로 줄
-print(b)  # / 대각선
-print(c)  # \ 대각선
+a = [False]*n  # 세로 줄
+b = [False]*(2*n-1)  # / 대각선
+c = [False]*(2*n-1)  # \ 대각선
 
 def solve(i):
     global ans
